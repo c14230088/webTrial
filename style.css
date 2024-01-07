@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(224, 195, 141);
+text-align: center;
+font-size: 1em;
+font-weight: 700;}
+
+header::first-letter{
+    font-size: 3em;
+}
+
+body{
+background-color: blueviolet;
+background-image: url(IMAGES/Plain\ purple.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+margin: 0px;
+}
+.bar ul{
+    list-style-type: none;
+    background-color:wheat;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.bar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+
+}
+.bar a:hover{
+    background-color: rgb(85, 84, 82);
+}
+
+.bar li{
+ float: left;
+}
+
+.PAGE{
+    text-align: center;
+}
+.PAGE a{
+color: black;
+text-decoration: none;
+padding: 8px 15px;
+display: inline-block;
+}
+
+.PAGE a.HERE{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.PAGE a:hover:not(.HERE){
+background-color: goldenrod;
+border-radius: 7px;
+}
+.icon{
+    text-align: center;
+    .fa fa-twitch{
+        color: lightskyblue;
+    }
+}
+
